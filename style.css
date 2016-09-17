@@ -1,0 +1,118 @@
+#topBar {
+	float: right;
+	text-align: center;
+	display: block;
+
+}
+
+#footer {
+	margin-top: 220px;
+	display: block;
+	background-color: rgb(242, 242, 242);
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	color: #666;
+}
+
+#footer li:hover {
+	color: black;
+	text-decoration:underline;
+}
+
+
+#centerBody {
+	padding-top: 176px;
+	text-align: center;
+}
+
+#leftLink {
+	float: left;
+	padding: 10px 10px;
+
+}
+
+#rightLink {
+	float: right;
+	padding: 10px 10px;
+}
+
+#sign_in {
+}
+
+#sign_button {
+    	margin: 10px;
+    	border: 1px;
+    	padding: 10px;
+    	background-color: blue;
+    	color: white;
+	height: 30px;
+	width: 70px;
+}
+
+#sign_button:hover {
+	background-color: red;
+}
+
+#logo {
+    padding-top: 13px;
+    padding-right: 20px;
+    padding-left: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+
+
+form {
+	padding-top: 15px;
+	margin: 0;
+	
+}
+
+input {
+	width: 480px;
+	height: 30px;
+	border: 1px solid #80808040;
+}
+
+button {
+	margin: 16px 4px;
+	padding: 3px 6px;
+	border: 1px solid #80808040;
+	font-weight: bold;
+	font-size: 9px;
+	color: rgb(68, 68, 68);
+	width: 125px;
+	height: 30px;
+	background-color: #cacacabd;
+	text-indent: 0px;
+	text-shadow: none;
+}
+
+
+
